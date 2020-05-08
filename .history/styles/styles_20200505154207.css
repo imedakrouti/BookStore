@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Great Vibes', cursive;
+}
+a:hover{
+    text-decoration: none;
+}
+header{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url('../images/img/header-bg.jpeg')no-repeat fixed center /cover;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    /* height: 100vh;
+    display: flex;
+    align-items:flex-end;
+    width: 90%;
+    justify-content: center;
+    flex-direction: column; */
+   
+   position:absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    width: 80%;
+    
+    /* text-align: right; */
+}

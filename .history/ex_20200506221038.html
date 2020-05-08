@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    header{
+    height: 100vh;
+    background:linear-gradient(rgba(234,236,244,0.6),rgba(123,120,111,0.7)),url('images/img/header-bg.jpeg')no-repeat fixed center /cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    .nav{
+        align-self: flex-start;
+        position: absolute;
+        padding: 30px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    ul{
+      display: flex;
+     align-items: center;
+      
+    }
+    .text-center{
+        text-align: center;
+    }
+    .text-center a{
+        display: block;
+        margin-bottom: 8px;
+        padding: 4px 20px;
+        background: transparent;
+        text-decoration: none;
+        border:1px solid yellow;
+        color:yellow
+    }
+    .text-center a:hover{
+        background:yellow;
+        color:#eee
+    }
+    ul li{
+        list-style: none;
+        margin: 0 30px;
+    }
+    ul li a{
+        text-decoration: none;
+       padding: 0.75rem;
+       margin: 0.025rem;
+        color:#eee;
+        background:#444;
+        font-size: 20px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: uppercase;
+        border-radius: 12px;
+    }
+    @media screen and (max-width: 700px){
+        nav a img{
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+</style>
+<body>
+    <header>
+        <div class="nav">
+                <a href=""><img src="images/img/book.png" alt="" width="200px"height="30px"></a>
+           
+            <ul>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+                <li><a href="">home</a></li>
+
+            </ul>
+        </div>
+        <div class="logo text-center">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, adipisci repudiandae.</p>
+            <a href="">aaaa</a>
+            <a href="">aaaa</a>
+        </div>
+    </header>
+    
+</body>
+</html>
